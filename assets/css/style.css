@@ -1,7 +1,56 @@
 /* Universal Selectors */
+:root {
+    --white: #fff;
+    --dark-blue: #13293d;
+    --tan: rgb(255, 250, 241);
+    --beige: rgb(255, 234, 197);
+    --dark-grey: rgb(54, 54, 54);
+    --light-blue: #5da4d3;
+}
 
+* {
+    background-color: var(--tan);
+    color: var(--dark-grey);
+    font-family: verdana, Helvetica, Arial, sans-serif;
+}
 /* Element Selectors */
+h1 {
+    font-size: xx-large;
+}
 
+h2 {
+    font-size: x-large;
+}
+
+h3 {
+
+}
+
+
+header section {
+
+}
+
+aside {
+
+}
+
+nav p {
+
+}
+
+main  {
+
+}
+
+footer {
+
+}
 /* Class Selectors */
 
+.card-title {
+    background-color: lightblue;
+    margin: 30px;
+    
+}
 /* Id Selectors */
