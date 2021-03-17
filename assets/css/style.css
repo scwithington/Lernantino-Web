@@ -9,6 +9,7 @@
 }
 
 * {
+    margin: 0;
     background-color: var(--tan);
     color: var(--dark-grey);
     font-family: verdana, Helvetica, Arial, sans-serif;
@@ -47,10 +48,42 @@ footer {
 
 }
 /* Class Selectors */
+.card {
+    min-width: 40%;
+    margin: 12px;
+    padding: 0 15px;
+    border: 3px solid var(--dark-grey);
+    justify-content: space-around;
+}
 
 .card-title {
     background-color: lightblue;
+    position: relative;
     margin: 30px;
-    
+    padding: 5px;
+    width: 20%
 }
+
+.quicknav {
+    margin: 45px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: none;
+}
+
+.quicknav h3 {
+    color: var(--light-blue);
+    text-decoration: 2px underline;
+    background: none;
+    display: inline;
+    padding: 5px;
+}
+
+.heading h1 {
+    color: var(--light-blue);
+    background-color: var(--dark-grey);
+    padding: 30px;
+}
+
 /* Id Selectors */
