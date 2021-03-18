@@ -35,7 +35,7 @@ h4 {
 
 nav div {
     background: none;
-    background-image: url('/assets/img/banner.jpg');
+    background-image: url('./assets/img/banner.jpg');
     height: 200px;
     width: 100%;
     margin-bottom: 3%;
@@ -156,7 +156,7 @@ nav div h4 {
 
 /* Id selectors */
 #plug-ins {
-    background-image: url('/assets/img/open-source-laptop-open-hardware.jpg');
+    background-image: url('./assets/img/open-source-laptop-open-hardware.jpg');
     background-size: 100%;
     opacity: 0.5;
     transition: opacity 0.5s ease-out;
@@ -167,7 +167,7 @@ nav div h4 {
 }
 
 #hardware {
-    background-image: url('/assets/img/ThinkstockPhotos-629285904-1030x761.jpg');
+    background-image: url('./assets/img/ThinkstockPhotos-629285904-1030x761.jpg');
     background-size: 100%;
     opacity: 0.5;
     transition: opacity 0.5s ease-out;
@@ -178,7 +178,7 @@ nav div h4 {
 }
 
 #puzzles {
-    background-image: url('/assets/img/7451-article-200812-open-source-supply-chain.png');
+    background-image: url('./assets/img/7451-article-200812-open-source-supply-chain.png');
     background-size: 100%;
     opacity: 0.5;
     transition: opacity 0.5s ease-out;
@@ -189,7 +189,7 @@ nav div h4 {
 }
 
 #mountains {
-    background-image: url('/assets/img/pexels-photo-2832039.jpeg');
+    background-image: url('./assets/img/pexels-photo-2832039.jpeg');
     background-size: 100%;
     opacity: 0.5;
     transition: opacity 0.5s ease-out;
@@ -200,7 +200,7 @@ nav div h4 {
 }
 
 #patrick {
-    background-image: url('/assets/img/st-patricks-day.jpg');
+    background-image: url('./assets/img/st-patricks-day.jpg');
     background-size: 100%;
     opacity: 0.5;
     transition: opacity 0.5s ease-out;
