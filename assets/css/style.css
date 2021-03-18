@@ -16,17 +16,20 @@
 }
 /* Element Selectors */
 h1 {
-    font-size: xx-large;
+    font-size: 50px;
 }
 
 h2 {
-    font-size: x-large;
+    font-size: 40px;
 }
 
 h3 {
-
+    font-size: 25px;
 }
 
+h4 {
+    font-size: 20px;
+}
 
 header section {
 
@@ -36,8 +39,21 @@ aside {
 
 }
 
-nav p {
+nav div {
+    background: none;
+    background-image: url('/assets/img/banner.jpg');
+    height: 200px;
+    width: 100%;
+    margin-bottom: 3%;
+}
 
+nav div h4 {
+    color: var(--tan);
+    background-color: var(--dark-grey);
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    margin: 20px 100px 40px 0;
 }
 
 main  {
@@ -48,42 +64,160 @@ footer {
 
 }
 /* Class Selectors */
+.flexbox-container .card-case {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-case {
+    display: flex;
+    flex: 10 10 1%;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
 .card {
-    min-width: 40%;
     margin: 12px;
     padding: 0 15px;
     border: 3px solid var(--dark-grey);
     justify-content: space-around;
+    flex: 1 1 350px;
+    min-width: 30%;
 }
 
 .card-title {
-    background-color: lightblue;
+    color: var(--tan);
+    background-color: var(--dark-grey);
     position: relative;
-    margin: 30px;
-    padding: 5px;
-    width: 20%
+    margin: 100px 0 0 -15px;
+    padding: 5px 5px 5px 5px;
 }
 
 .quicknav {
-    margin: 45px;
-    position: fixed;
+    margin: 50px;
+    position: absolute;
     top: 0;
     right: 0;
     background: none;
 }
 
 .quicknav h3 {
-    color: var(--light-blue);
+    color: var(--tan);
     text-decoration: 2px underline;
     background: none;
     display: inline;
     padding: 5px;
 }
-
+.header-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 .heading h1 {
-    color: var(--light-blue);
+    color: var(--tan);
     background-color: var(--dark-grey);
-    padding: 30px;
+    padding: 30px;    
 }
 
-/* Id Selectors */
+.about-me{
+    display: flex;
+}
+
+.about-me aside {
+    padding: 20px;
+    border-right: 4px solid var(--dark-grey);
+    margin: 0 45px 0 82px;
+    text-align: right;
+}
+
+.work {
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+}
+
+.work aside {
+    padding: 20px;
+    border-right: 4px solid var(--dark-grey);
+    margin: 0 20px 0 100px;
+}
+
+.contact {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    min-height: 60%;
+    margin-left: 5%;
+}
+
+.contact h3 {
+    position: relative;
+    text-decoration: 2px underline;
+    background: none;
+    display: inline;
+    padding: 10px;
+    margin: 50px;
+}
+
+.contact aside {
+    padding: 20px;
+    border-right: 4px solid var(--dark-grey);
+    margin: 0 20px 0 -58px;
+    text-align: right;
+}
+
+/* Id selectors */
+#plug-ins {
+    background-image: url('/assets/img/open-source-laptop-open-hardware.jpg');
+    background-size: 100%;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-out;
+}
+
+#plug-ins:hover {
+    opacity: 1;
+}
+
+#hardware {
+    background-image: url('/assets/img/ThinkstockPhotos-629285904-1030x761.jpg');
+    background-size: 100%;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-out;
+}
+
+#hardware:hover {
+    opacity: 1;
+}
+
+#puzzles {
+    background-image: url('/assets/img/7451-article-200812-open-source-supply-chain.png');
+    background-size: 100%;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-out;
+}
+
+#puzzles:hover {
+    opacity: 1;
+}
+
+#mountains {
+    background-image: url('/assets/img/pexels-photo-2832039.jpeg');
+    background-size: 100%;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-out;
+}
+
+#mountains:hover {
+    opacity: 1;
+}
+
+#patrick {
+    background-image: url('/assets/img/st-patricks-day.jpg');
+    background-size: 100%;
+    opacity: 0.5;
+    transition: opacity 0.5s ease-out;
+}
+
+#patrick:hover {
+    opacity: 1;
+}
