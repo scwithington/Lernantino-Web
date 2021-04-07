@@ -31,8 +31,6 @@ h4 {
     font-size: 20px;
 }
 
-}
-
 nav div {
     background: none;
     background-image: url('/assets/img/banner.jpg');
@@ -50,12 +48,10 @@ nav div h4 {
     margin: 20px 100px 40px 0;
 }
 
+a {
+    background: none;
 }
 /* Class Selectors */
-.flexbox-container .card-case {
-    display: flex;
-    flex-direction: column;
-}
 
 .card-case {
     display: flex;
@@ -119,9 +115,8 @@ nav div h4 {
 
 .work {
     margin-top: 3%;
-    display: flex;
-    flex-wrap: wrap;
-    height: 1000px;
+    display: inline-flex;
+    height: 500px;
 }
 
 .work aside {
@@ -135,14 +130,13 @@ nav div h4 {
     margin-bottom: 3%;
     display: flex;
     min-height: 60%;
-    margin-left: 5%;
 }
 
 .contact h3 {
     position: relative;
     text-decoration: 2px underline;
     background: none;
-    display: inline;
+    display: inline-flex;
     padding: 10px;
     margin: 50px;
 }
@@ -150,7 +144,7 @@ nav div h4 {
 .contact aside {
     padding: 20px;
     border-right: 4px solid var(--dark-grey);
-    margin: 0 20px 0 -58px;
+    margin: 0 20px 0 34px;
     text-align: right;
 }
 
