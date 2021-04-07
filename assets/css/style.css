@@ -25,21 +25,26 @@ h2 {
 
 h3 {
     font-size: 25px;
+    text-decoration: underline 2px;
 }
 
 h4 {
     font-size: 20px;
 }
 
+nav {
+    height: 75vh;
+    width: 100%;
+    margin-top: 1%;
+}
 nav div {
     background: none;
-    background-image: url('./assets/img/banner.jpg');
-    height: 200px;
-    width: 100%;
-    margin-bottom: 3%;
+    background-image: url('../../assets/img/banner.jpg');
+    height: 73vh;
+    border: 5px solid var(--dark-grey);
 }
 
-nav div h4 {
+nav div button {
     color: var(--tan);
     background-color: var(--dark-grey);
     padding: 10px;
@@ -50,6 +55,12 @@ nav div h4 {
 
 a {
     background: none;
+    color: none;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 3%;
 }
 /* Class Selectors */
 
@@ -87,18 +98,19 @@ a {
 
 .quicknav h3 {
     color: var(--tan);
-    text-decoration: 2px underline;
+    /* text-decoration: 2px underline; */
     background: none;
     display: inline;
     padding: 5px;
 }
-.header-flex {
+.heading {
     display: flex;
     flex-wrap: wrap;
+    background: linear-gradient(to right, rgb(53, 47, 47), rgb(97, 128, 90));
 }
+
 .heading h1 {
     color: var(--tan);
-    background-color: var(--dark-grey);
     padding: 30px;    
 }
 
@@ -115,8 +127,7 @@ a {
 
 .work {
     margin-top: 3%;
-    display: inline-flex;
-    height: 500px;
+    display: flex;
 }
 
 .work aside {
@@ -148,9 +159,22 @@ a {
     text-align: right;
 }
 
+.name {
+    background: none;
+    font-size: 40px;
+}
 /* Id selectors */
+#paragraph {
+    display: flex;
+    flex-direction: column;
+}
+
+#paragraph p {
+    margin-top: 1%;
+}
+
 #plug-ins {
-    background-image: url('./assets/img/open-source-laptop-open-hardware.jpg');
+    background-image: url('../../assets/img/open-source-laptop-open-hardware.jpg');
     background-size: 100%;
     opacity: 0.5;
     transition: opacity 0.5s ease-out;
@@ -161,7 +185,7 @@ a {
 }
 
 #hardware {
-    background-image: url('./assets/img/ThinkstockPhotos-629285904-1030x761.jpg');
+    background-image: url('../../assets/img/ThinkstockPhotos-629285904-1030x761.jpg');
     background-size: 100%;
     opacity: 0.5;
     transition: opacity 0.5s ease-out;
@@ -172,7 +196,7 @@ a {
 }
 
 #puzzles {
-    background-image: url('./assets/img/7451-article-200812-open-source-supply-chain.png');
+    background-image: url('../../assets/img/7451-article-200812-open-source-supply-chain.png');
     background-size: 100%;
     opacity: 0.5;
     transition: opacity 0.5s ease-out;
@@ -183,7 +207,7 @@ a {
 }
 
 #mountains {
-    background-image: url('./assets/img/pexels-photo-2832039.jpeg');
+    background-image: url('../../assets/img/pexels-photo-2832039.jpeg');
     background-size: 100%;
     opacity: 0.5;
     transition: opacity 0.5s ease-out;
@@ -194,7 +218,7 @@ a {
 }
 
 #patrick {
-    background-image: url('./assets/img/st-patricks-day.jpg');
+    background-image: url('../../assets/img/st-patricks-day.jpg');
     background-size: 100%;
     opacity: 0.5;
     transition: opacity 0.5s ease-out;

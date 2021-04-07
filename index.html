@@ -10,26 +10,30 @@
 </head>
 <body>
     <header class = 'heading'>
-        <h1>
-            Cal Withington   
-        </h1>
-        <ul class = 'quicknav'>
-            <a href='#aboutMe'>
-                <h3>About Me</h3>
-            </a>
-            <a>
-                <h3>Work</h3>
-            </a>
-            <a>
-                <h3>Contact Me</h3>
-            </a>
-            <a href='./resume.html'>
-                <h3>Resume</h3>  
-            </a>     
-        </ul>
+        <div class='name'>
+            <h1 class='name'>
+                Cal Withington   
+            </h1>
+        </div>
+        <div>
+            <ul class = 'quicknav'>
+                <a href='#aboutMe'>
+                    <h3>About Me</h3>
+                </a>
+                <a href='#workSection'>
+                    <h3>Work</h3>
+                </a>
+                <a href='#contactSection'>
+                    <h3>Contact Me</h3>
+                </a>
+                <a href='./assets/resume/Resume.pdf'>
+                    <h3>Resume</h3>  
+                </a>     
+            </ul>
+        </div>
     <nav>
         <div>
-            <h4>Cool Subtitle Text</h4>
+            <button id='imgButton'>Change Image</button>
         </div>
     </nav>
     </header>
@@ -40,12 +44,17 @@
                     About Me
                 </h1>
             </aside>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium cupiditate quod quia labore blanditiis ipsam dolorem ex veritatis error quae, illo voluptate excepturi numquam facilis! Modi impedit est laboriosam vero animi sit. Quia quidem inventore quisquam eum, dignissimos accusamus ducimus ipsum dolore! Consectetur nesciunt esse vel deserunt perferendis. Perspiciatis, quos nostrum repellendus cum voluptate aliquam doloribus qui quam architecto vero placeat consequuntur tempore quo esse porro quas odio perferendis soluta molestias illo dolores nesciunt unde ad. Ex similique ipsum nesciunt nostrum alias, distinctio tempore repudiandae, suscipit assumenda repellendus incidunt, dolorem voluptatibus culpa obcaecati molestiae laborum ratione dolores accusantium voluptatem.
-            </p>
+            <div id='paragraph'>
+                <p>
+                    I went to high school at the Galloway School in Atlanta I am currently enrolled at Georgia State University studying computer science. I hope to transfer into Georgia Tech in order to pursue aerospace engineering as my major as well as a minor in computer science. My goal from there is to graduate with honors and go on to get my masters in computer science or physics. 
+                </p>
+                <p>
+                    For now, I am very much enjoying Georgia Tech's coding bootcamp. The rigor is intense but I will see it through to the end. Although I am not taking the course to advance my career like others, I do believe that in taking the bootcamp, I'll be giving myself an advantage in my CS studies.
+                </p>
+            </div>
         </section>
 
-        <section class = 'work'>
+        <section class = 'work' id='workSection'>
             <aside>
                 <h1>
                     Work
@@ -84,7 +93,7 @@
             </div>
         </section>
     </main>
-    <footer class = 'contact'>
+    <footer class = 'contact' id='contactSection'>
         <aside>
             <h1>
                 Contact 
@@ -102,5 +111,6 @@
             </ul>
         </div>    
     </footer>
+    <script href='./assets/js/script.js'></script>
 </body>
 </html>
